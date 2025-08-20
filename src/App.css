@@ -1,5 +1,5 @@
 body{
-  background: #ccc; 
+  /* background: #ccc; */
 }
 main{
   width: 100%;
@@ -12,16 +12,88 @@ header{
 }
 .produtos{
   width: 100%;
-  height: 50vh;
-  background: #F00;
+  height: auto;
+  float: left;
+  /* background: #F00; */
+  padding-bottom: 3vh;
+}
+.card{
+  width: 90%;
+  height: auto;
+  float: left;
+  background: #fff;
+  margin-left: 5%;
+  margin-top: 2vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px #000;
+}
+.img-card{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.card h2{
+  width: 90%;
+  height: auto;
+  float: left;
+  /* background: rgb(218, 89, 218); */
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight:bold;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+}
+.desc{
+  width: 90%;
+  height: auto;
+  float: left;
+  /* background: rgb(248, 121, 248); */
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+  color: #333;
+  margin-top: 1vh;  
+}
+.classificacao{
+  width: 40%;
+  height: auto;
+  float: right;
+  /* background: yellow; */
+  margin-top: 2vh;
+  text-align: center;
+}
+.preco{
+  width: 40%;
+  height: auto;
+  float: left;
+  /* background: greenyellow; */
+  margin-left: 5%;
+  margin-top: 2vh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+.off{
+  width: 13%;
+  height: auto;
+  position: absolute;
+  top: 2vh;
+  left: 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 }
 .destaque{
   width: 100%;
   height: 50vh;
-  background: #0F0;
+  /* background: #0F0; */
 }
 footer{
   width: 100%;
   height: 20vh;
-  background: #00F;
+  /* background: #00F; */
 }
